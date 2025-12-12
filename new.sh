@@ -11,5 +11,6 @@ if [ "$LANG" == "js" ]; then EXT="js"; fi
 mkdir -p day$DAY
 cp templates/template.$EXT day$DAY/solution.$EXT
 touch inputs/day$DAY.txt
+touch day$DAY/test.txt
 code day$DAY/solution.$EXT
 echo "Created day$DAY/solution.$EXT"
